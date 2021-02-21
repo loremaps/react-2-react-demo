@@ -1,0 +1,9 @@
+mutation updateTodoById(
+  $pk_columns: todo_pk_columns_input!
+  $_set: todo_set_input
+) {
+  update_todo_by_pk(pk_columns: $pk_columns, _set: $_set) {
+    id
+    is_completed
+  }
+}

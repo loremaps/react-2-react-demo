@@ -1,0 +1,9 @@
+.todo-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+input[type="checkbox"]:checked + label {
+  color: gray;
+  text-decoration: line-through;
+}

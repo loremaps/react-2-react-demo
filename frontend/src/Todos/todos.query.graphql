@@ -1,0 +1,8 @@
+query Todos {
+  todo(order_by: { created_at: asc }) {
+    id
+    title
+    is_completed
+    created_at
+  }
+}

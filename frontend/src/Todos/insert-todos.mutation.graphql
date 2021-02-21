@@ -1,0 +1,5 @@
+mutation insertTodo($object: todo_insert_input!) {
+  insert_todo_one(object: $object) {
+    id
+  }
+}
